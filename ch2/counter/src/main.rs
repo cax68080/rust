@@ -3,7 +3,7 @@
 use std::collections::HashMap;
 
 //投票データを定数として宣言
-const V_DATA: &str = "C,C,A,A,A,B,C,A,C,B,C,B,B,A,C,B,c";
+const V_DATA: &str = "C,C,A,A,A,B,C,A,C,B,C,B,B,A,C,B,C";
 
 fn main() {
     //集計用のHashMapを生成
@@ -14,6 +14,7 @@ fn main() {
     c_map.insert("C",0);
     //投票データを集計
     for w in V_DATA.split(','){
+        //println!("{}",c_map[w]+1);
         c_map.insert(w, c_map[w]+1);
     }
     //集計して結果を表示
