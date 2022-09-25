@@ -5,6 +5,7 @@ fn main() {
         let s3 = String::from("ブドウ畑と美人は手がかかる");
         //ブロック2
         {
+            println!("{}",s1);
             let s2 = s1;
             println!("{}",s2);
         }
