@@ -1,0 +1,1 @@
+C:\Users\cax68\Documents\VSCODE\Rust\Rust_Hands_On\Chapter_1_3\sample_rust_app\target\debug\sample_rust_app.exe: C:\Users\cax68\Documents\VSCODE\Rust\Rust_Hands_On\Chapter_1_3\sample_rust_app\src\main.rs
